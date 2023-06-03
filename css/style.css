@@ -44,7 +44,9 @@ header {
 }
 .flex-item {
   width: 680px;
-position: relative;
+  position: relative;
+  padding: 0 32px;
+  margin: 0 auto;
   top: 0;
   bottom: 0;
   right: 0;
@@ -133,10 +135,11 @@ nav ul li a {
 
 .active {
   color: #0b84ed !important;
-  border-bottom: 5px solid #0b84ed;
+  /* border-bottom: 5px solid #0b84ed;
   width: 130px;
   border-radius: 1px;
   transition: 0.5s ease;
+ */
 }
 
 nav ul li:hover #home,
