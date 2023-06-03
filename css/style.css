@@ -33,16 +33,25 @@ header {
   height: 56px;
 }
 .left-container{
-  flex: 1 ;
+  width: 360px;
   background: lightblue;
 }
 .main-container {
-  width: 680px;
+  flex: 1;
   background: lightgray;
   height: 600px;
+  display: block;
+}
+.flex-item {
+  width: 680px;
+position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 .right-container {
-  flex: 1;
+  width: 360px;
   background: lightpink;
 }
 nav ul {
